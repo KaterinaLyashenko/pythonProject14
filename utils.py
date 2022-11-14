@@ -125,5 +125,4 @@ def search_movie_by_param(type, year, genre):
     return result_list
 
 
-# cast_partners('Rose McIver', 'Ben Lamb')
-print(search_movie_by_param('TV Show', '2005', 'Dramas'))
+#print(search_movie_by_param('TV Show', '2005', 'Dramas'))
