@@ -3,10 +3,6 @@ from collections import Counter
 
 
 class DbConnect:
-    # with sqlite3.connect('netflix.db') as connection:
-    #     cur = connection.cursor()
-    #     cur.execute("")
-
     def __init__(self, path):
         self.con = sqlite3.connect(path)
         self.cur = self.con.cursor()
